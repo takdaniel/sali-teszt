@@ -22,5 +22,7 @@ header {
 table.center {
     margin-left: auto;
     margin-right: auto;
-    
+}
+#table1{
+    font-size: 28px;
 }

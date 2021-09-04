@@ -1,0 +1,41 @@
+header{
+    background-color: seagreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+body{
+    background-color: rgb(255, 193, 138);
+    
+}
+.navi{
+    margin: auto;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    margin: auto;
+    width: 25%;
+    border: solid 1px;
+    padding: 15px;
+    box-shadow: 0 0 2px;
+    text-align: center;
+    font-size: 18px;
+}
+.center input{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    border: solid 1px;
+    box-shadow: 0 0 2px;
+}
+button:hover{
+    box-shadow: 0 0 2px;
+    cursor: pointer;
+}

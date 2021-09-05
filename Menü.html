@@ -8,69 +8,85 @@
     <title>Étlap</title>
 
     <link rel="stylesheet" href="css/menü.css">
+    <link rel="stylesheet" href="bs/bootstrap-5.1.0-dist/css/bootstrap.min.css">
 
 </head>
 <header>
     Étlapunk
 </header>
 
-<body>
-   <table class="center" id="table1">
-<tr>
-    <td>
-<a href="index.html">Kezdőlap</a>
-    </td>
-    <td>
-        <a href="Menü.html">Étlap</a>
-    </td>
-    <td>
-         <a href="kapcsolat.html">Kapcsolat</a>
-    </td>
-    <td>
-        <a href="login.html">Bejelentkezés</a>
-    </td>
-</tr>
-   </table>
-            
-     
-            
-      
-           
-       
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Sali</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Menü.html">Étlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Bejelentkezés</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 
     <H1>Pizzáink</H1>
-    <table class="center">
-        <tr>
-            <td> </td>
-            <td>Kicsi </td>
-            <td>Közepes</td>
-            <td>Nagy</td>
-        </tr>
-        <tr>
-            <td>Margarita <br> (Paradicsomos alap, sajt) </td>
-            <td>1150</td>
-            <td>1450</td>
-            <td>2900</td>
-        </tr>
-        <tr>
-            <td>Sonkás <br>(Paradicsomos alap, sonka, sajt)</td>
-            <td>1350</td>
-            <td>1650</td>
-            <td>3300</td>
-        </tr>
-        <tr>
-            <td>Hawaii <br>(Tejfölös alap, sonka, ananász, sajt) </td>
-            <td>1400</td>
-            <td>1700</td>
-            <td>3400</td>
-        </tr>
-        <tr>
-            <td>Magyaros <br>(Paradicsomos alap, hagyma, szalámi, kolbász, bacon, pepperóni, sajt) </td>
-            <td>1500</td>
-            <td>1800</td>
-            <td>3500</td>
-        </tr>
-    </table>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <table class="table table-striped table-sm table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Kicsi</th>
+                            <th>Közepes</th>
+                            <th>Családi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Margarita <br> (Paradicsomos alap, sajt) </td>
+                            <td>1150</td>
+                            <td>1450</td>
+                            <td>2900</td>
+                        </tr>
+                        <tr>
+                            <td>Sonkás <br>(Paradicsomos alap, sonka, sajt)</td>
+                            <td>1350</td>
+                            <td>1650</td>
+                            <td>3300</td>
+                        </tr>
+                        <tr>
+                            <td>Hawaii <br>(Tejfölös alap, sonka, ananász, sajt) </td>
+                            <td>1400</td>
+                            <td>1700</td>
+                            <td>3400</td>
+                        </tr>
+                        <tr>
+                            <td>Magyaros <br>(Paradicsomos alap, hagyma, szalámi, kolbász, bacon, pepperóni, sajt) </td>
+                            <td>1500</td>
+                            <td>1800</td>
+                            <td>3500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
 
 </body>
 

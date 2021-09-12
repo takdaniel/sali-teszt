@@ -1,0 +1,24 @@
+.container-nav {
+    display: inline-block;
+    height: 30rem;
+    text-align: right;
+}
+
+.logo {
+    width: 5rem;
+    display: inline-block;
+}
+
+.navbar {
+    text-align: right;
+}
+
+.icon {
+    width: 1.5rem;
+}
+
+.list-item {
+    display: inline;
+    text-decoration: none;
+}
+

@@ -4,8 +4,16 @@
     --clr-accent-400: hsl(142, 90%, 61%);
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 header {
     background-color: var(--clr-accent-400);
+    position: fixed top;
+    width: 100%;
+    margin: 0;
+    border: 0;
 }
 
 .container-nav {

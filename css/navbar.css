@@ -1,24 +1,38 @@
+:root {
+    --clr-neutral-900: hsl(207, 19%, 9%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-accent-400: hsl(142, 90%, 61%);
+}
+
+header {
+    background-color: var(--clr-accent-400);
+}
+
 .container-nav {
-    display: inline-block;
-    height: 30rem;
-    text-align: right;
+    display: flex;
 }
 
 .logo {
-    width: 5rem;
-    display: inline-block;
-}
-
-.navbar {
-    text-align: right;
+    width: 5em;
+    height: 5em;
 }
 
 .icon {
-    width: 1.5rem;
+    width: 2em;
+    height: 2em;
 }
 
-.list-item {
-    display: inline;
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 10px 0 10px;
+    list-style: none;
+    
+}
+
+nav ul li a {
     text-decoration: none;
+    
 }
-
